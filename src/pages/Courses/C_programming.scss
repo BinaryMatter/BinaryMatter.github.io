@@ -1,0 +1,59 @@
+.courses__ {
+    // height: 100vh; /* Magic here */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &title {
+        font-size: 4em;
+        text-align: center;
+    }
+
+    @media screen and (max-width: 610px) {
+        &title {
+            font-size: 3em;
+        }
+    }
+    @media screen and (max-width: 480px) {
+        &title {
+            font-size: 2em;
+        }
+    }
+    @media screen and (max-width: 360px) {
+        &title {
+            font-size: 1em;
+        }
+    }
+
+    &link a {
+        width: 828px;
+        height: 412px;
+        border-radius: 15px;
+    }
+
+    &img {
+        width: 828px;
+        height: 412px;
+        border-radius: 15px;
+    }
+
+    @media screen and (max-width: 828px) {
+        &img {
+            width: 414px;
+            height: 206px;
+        }
+    }
+
+    @media screen and (max-width: 420px) {
+        &img {
+            width: 290px;
+            height: 144.2px;
+        }
+    }
+
+    &description {
+        text-align: center;
+        max-width: 828px;
+    }
+}

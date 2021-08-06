@@ -1,9 +1,0 @@
-/* import google font 'Ubuntu' */
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
-
-/* App class with 10px left margin font family 'Ubuntu' */
-.App {
-  font-family: 'Ubuntu', sans-serif;
-  margin-left: 10px;
-}
-
